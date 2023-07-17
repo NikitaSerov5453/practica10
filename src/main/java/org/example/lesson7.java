@@ -13,20 +13,18 @@ public class lesson7 {
         int indexJ = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                if (array[i][j] < min) {
-                    min = array[i][j];
+                if (array[j][i] < min) {
+                    min = array[j][i];
                 }
-                if (array[i][j] > max) {
-                    max = array[i][j];
+                if (array[j][i] > max) {
+                    max = array[j][i];
                 }
             }
-            indexJ++;
-
             System.out.println(min);
             System.out.println(max);
             System.out.println();
-
+            min = Integer.MAX_VALUE;
+            max = Integer.MIN_VALUE;
         }
-
     }
 }
