@@ -13,14 +13,17 @@ import java.util.Collections;
  */
 public class lesson3 {
     public static void main(String[] args) {
+        completionArray();
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(arraySort()));
         reversSort();
         array3();
+        System.out.println(random());
         System.out.println(Arrays.toString(array));
+
     }
 
-    public static Integer[] array = new Integer[]{489, 1568, 15, 789, 3, 9, 74, 78, 1, 1, 1, 781, 89, 7, 15};
+    public static Integer[] array = new Integer[15];
     public static Integer[] array2 = new Integer[]{};
 
     public static Integer[] arraySort() {
@@ -40,6 +43,16 @@ public class lesson3 {
             array[i] = array2[counter];
             counter++;
         }
+    }
+
+    public static void completionArray() {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random();
+        }
+    }
+
+    public static Integer random() {
+        return Math.toIntExact(Math.round(Math.random() * 100));
     }
 
 }
