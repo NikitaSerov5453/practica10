@@ -4,6 +4,13 @@ package org.example;
 import java.util.Arrays;
 import java.util.Collections;
 
+/**
+ * Есть одномерныймассив из 15 элементов, заполненный
+ * случайными числами. Необходимо первые 7 элементов
+ * отсортировать по возрастанию, оставшиеся 8 элементов
+ * по убыванию. Выбор алгоритма сортировки необходимо
+ * обосновать вашему преподавателю
+ */
 public class lesson3 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(array));

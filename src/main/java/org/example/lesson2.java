@@ -3,6 +3,12 @@ package org.example;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * льзователь с клавиатуры вводит зарплату сотрудников фирмы. Необходимо отсортировать полученные
+ * данные по возрастанию или убыванию в зависимости
+ * от выбора пользователя. Выбор алгоритма сортировки
+ * необходимо обосновать вашему преподавателю.
+ */
 public class lesson2 {
     public static void main(String[] args) {
         dynamicArray(5);

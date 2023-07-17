@@ -3,6 +3,10 @@ package org.example;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Есть одномерный массив из 10 элементов, заполненный случайными числами. Необходимо найти число,
+ * введенное пользователем. Используйте алгоритм бинарного поиска.
+ */
 public class lesson4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

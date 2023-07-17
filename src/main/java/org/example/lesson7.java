@@ -1,5 +1,9 @@
 package org.example;
 
+/**
+ * В двумерноммассиве, заполненномслучайными числами, определить минимальный и максимальный элементы
+ * для каждого столбца. Результаты вывести на экран.
+ */
 public class lesson7 {
     public static void main(String[] args) {
         minMaxValue();

@@ -1,5 +1,11 @@
 package org.example;
 
+/**
+ * Есть два двумерных массива (матрицы размером
+ * 2x2), заполненные случайными числами. Найдите сумму
+ * матриц, разницу матриц, произведение матриц
+ */
+
 public class lesson8 {
     public static void main(String[] args) {
         System.out.println("Сумма матриц: " + (sumArray(array) + sumArray(array2)));

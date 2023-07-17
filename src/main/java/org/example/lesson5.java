@@ -3,6 +3,11 @@ package org.example;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Пользователь с клавиатуры вводит элементы двумерного массива (3x3). Необходимо найти сумму элементов
+ * массива, среднеарифметическое, отобразить на экран все
+ * элементы массива
+ */
 public class lesson5 {
     public static void main(String[] args) {
         addArray();
